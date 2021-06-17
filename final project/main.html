@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 4.3.1 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <section id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#token">籌碼</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tech">技術</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#finance">財務</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+
+          <h1>為你喜愛的<br>股票做健檢！</h1>
+          <!-- <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fab fa-google-play"></i> Download</button> -->
+          <!-- <h3>2330 台積電</h3> -->
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 籌碼 -->
+
+  <section id="token">
+
+
+    <h1><i class="fas fa-coins"></i>  籌碼</h1>
+
+    <div class="card-deck">
+
+      <div class="card">
+        <div class="card-header">
+          <h3>長線(多)</h3>
+        </div>
+        <div class="card-body token-lm">
+          <p>大股東持有比>80%</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>長線(空)</h3>
+        </div>
+        <div class="card-body token-ll">
+          <p>外資賣超前10名(60d)</p>
+          <p>投信賣超前100名(60d)</p>
+          <p>自營商賣超前10名(60d)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck">
+
+      <div class="card">
+        <div class="card-header">
+          <h3>短線(多)</h3>
+        </div>
+        <div class="card-body token-sm">
+          <p>外資買超前30名(5d)</p>
+          <p>投信買超前30名(5d)</p>
+          <p>自營商買超前30名(5d)</p>
+          <p>投信連續買超3日</p>
+          <p>自營商連續買超3日</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>短線(空)</h3>
+        </div>
+        <div class="card-body token-sl">
+          <p>外資連續賣超3日</p>
+          <p>外資由買轉賣</p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技術 -->
+
+  <section id="tech">
+
+
+    <h1><i class="fas fa-wrench"></i>  技術</h1>
+
+    <div class="card-deck">
+
+      <div class="card">
+        <div class="tech-header card-header">
+          <h3>長線(多)</h3>
+        </div>
+        <div class="card-body tech-lm">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tech-header card-header">
+          <h3>長線(空)</h3>
+        </div>
+        <div class="card-body tech-ll">
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck">
+
+      <div class="card">
+        <div class="tech-header card-header">
+          <h3>短線(多)</h3>
+        </div>
+        <div class="card-body tech-sm">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="tech-header card-header">
+          <h3>短線(空)</h3>
+        </div>
+        <div class="card-body tech-sl">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 財務 -->
+
+  <section id="finance">
+
+    <h1><i class="fas fa-dollar-sign"></i>  財務</h1>
+
+    <div class="card-deck">
+
+      <div class="card">
+        <div class="card-header">
+          <h3>長線(多)</h3>
+        </div>
+        <div class="card-body fin-lm">
+          <p>高現金殖利率</p>
+          <p>營收在產業排前5%</p>
+          <p>毛利率在產業排前10%</p>
+          <p>高營業利益率</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>長線(空)</h3>
+        </div>
+        <div class="card-body fin-ll">
+          <p>股價淨值比過高</p>
+          <p>本益比過高</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-deck">
+
+      <div class="card">
+        <div class="card-header">
+          <h3>短線(多)</h3>
+        </div>
+        <div class="card-body fin-sm">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>短線(空)</h3>
+        </div>
+        <div class="card-body fin-sl">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fab footer-icon fa-twitter"></i>
+    <i class="fab footer-icon fa-facebook-f"></i>
+    <i class="fab footer-icon fa-instagram"></i>
+    <i class="far footer-icon fa-envelope"></i>
+
+    <p>© Copyright 2021 Stockcare</p>
+
+  </footer>
+
+
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stockcare Login</title>
+
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+  <!-- Main css -->
+  <link rel="stylesheet" href="css/login.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+  <div class="logo">
+    <a href="index.html">Stockcare</a>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="form sign-in-form">
+        <div class="wrapper">
+          <form action="index.html">
+            <h1>Log In</h1>
+            <p>use your email and password to sign in</p>
+            <input name="email" type="email" placeholder="Email" autocomplete="off">
+            <input type="password" placeholder="Password">
+            <button>Log In</button>
+          </form>
+        </div>
+      </div>
+      <div class="form sign-up-form active">
+        <div class="wrapper">
+          <form action="#">
+            <h1>Sign up</h1>
+            <p>Please provide all the correct info to create an account</p>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <!-- <input type="password" placeholder="Confirm Password"> -->
+            <button id="signInFinish">Sign Up</button>
+          </form>
+        </div>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-left">
+            <h1>Create Account</h1>
+            <p>or</p>
+            <button id="signInButton">Log In</button>
+          </div>
+          <div class="overlay-right">
+            <h1>Please, Log In</h1>
+            <p>or</p>
+            <button id="signUpButton">Create Account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/login.js" charset="utf-8"></script>
+</body>
+
+</html>
